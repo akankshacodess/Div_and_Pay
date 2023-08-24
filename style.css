@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Markazi Text", Muli;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #424242;
+  height: 100vh;
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: rgb(156, 196, 231);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:"wght" 400, "GRAD" 1, "opsz" 48;
+  margin-right: 10px;
+}
+.box .inputbox:hover .material-symbols-outlined{
+    transform: scaleX(-1);
+    font-variation-settings: "wght" 700, "FILL" 1;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  height: 500px;
+  width: 350px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 40px 40px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.box h3 {
+  font-family: cursive;
+  font-size: 2.5rem;
+  color: hwb(278 49% 1%);
+}
+
+.box p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.box span {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.box .inputbox {
+  /* display: contents; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box .inputbox i {
+  margin-right: 15px;
+  font-size: 1.5rem;
+}
+
+.box input {
+  margin: 0 2.5rem;
+  background-color: #2b2a2a;
+  display: block;
+  /* font-size: 1rem; */
+  border: none;
+  border-bottom: 1px solid #bbbaba;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  /* font-weight: 700; */
+  padding: 5px;
+  color: rgb(234, 234, 234);
+}
+.box input::placeholder {
+  color: #bcbcbc;
+}
+#addTip:hover{
+  letter-spacing: normal;
+}
+.box button {
+  border-radius: 8px;
+  padding: 7px 3px;
+  margin: 7px;
+  background-color: #d52e7e;
+  font-weight: 600;
+  color: rgb(213, 210, 210);
+  outline: none;
+  border: none;
+  width: 30%;
+  cursor: pointer;
+}
+#addTip{
+  padding:10px;
+  margin-left:35%;
+  width: fit-content;
+}
+.box button:hover {
+  background-color: #fbd0ba;
+  color: rgb(31, 31, 31);
+  opacity:0.9;
+  letter-spacing: 0.07rem;
+  transition: 0.5s;
+}
+#result{
+  margin-top:10px;
+}
