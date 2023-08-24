@@ -1,4 +1,4 @@
-# Div_and_Pay
+d# Div_and_Pay
 HEllO Folks,
 
 Tired of the awkwardness that comes when calculating who owns what after an enjoyable meal or party with friends or colleagues? 
