@@ -1,5 +1,5 @@
 d# Div_and_Pay
-HEllO Folks,
+Hello Folks,
 
 Tired of the awkwardness that comes when calculating who owns what after an enjoyable meal or party with friends or colleagues? 
 Look no further- I've got you covered!
